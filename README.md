@@ -19,11 +19,11 @@ security and API services.
 
 ========================== The Answer ======================
 
-Sebagai Security Engineer saya akan selalu melakukan Sacanning secara berkala untuk mengetahui serentan apakah System/API yang saya gunakan agar adanya upaya pencegahan di awal. Untuk menyerang saya akan melakukan scanning kerentanan system jika sudah ditemukan akan saya lakukan penyerangan. Untuk solusi tentang cara merancang keamanan bisa saya melakukan berbagai aktifitas seperti 
+As a Security Engineer, I will always do periodic Scanning to find out whether the System/API I am using is vulnerable so that there is an early prevention effort. For attack I will do a system vulnerability scanning if it is found. For solutions on how to design security, I can do various activities such as
 1. Network Security Checklist
 2. Network and System Hardening
-3. Using Cyrptography
-4. Penjadwalan Scan Kerenatan Network dan System
+3. Using Cryptography
+4. Scheduling Network and System Vulnerability Scans
 5. zero-trust
 
 
@@ -36,18 +36,18 @@ measurement is enough for the app go live.
 
 ========================== The Answer ======================
 
-Untuk memastikan app go to live. biasanya saya melakukan berbagai pengecekan seperti
+To make sure the app goes to live, I do various checks such as :
 1. Eliminate vulnerabilities before applications go into production.
-Untuk Mengatasi keamanan aplikasi sebelum pengembangan selesai, penting untuk membangun keamanan ke dalam tim pengembang
+To Address application security before development is complete, it is essential to build security into the development team
 
-2. Mengatasi kemanan dalam arsitktur, desain, dan komponen open source atau pihak ketiga.
-Jika kita hanya memeriksa bug dalam code kita atau menjalankan penetration test terhadap sistem kita. Kita mungkin kehilangan sejumlah besar kerentanan dalam sistem kita
+2. Address security in open source or third-party architecture, design, and components.
+If we check for bugs in our code or run a penetration test on our system. We may lose a large number of vulnerabilities in our system
 
-3. Mengadopsi alat keamanan yang terintegarsi ke dalam lingkungan pengembang.
-Salah satu cara untuk melakukan ini adalah dengan plugin IDE, yang memungkinkan pengembang melihat hasil keamanan langsung di IDE saat mereka mengerjakan code mereka
+3. Adopt security tools integrated into the developer environment.
+One way to do this is with an IDE plugin, which allows developers to see security results directly in the IDE as they work on their code
 
-4. Bangun "AppSec toolbelt" yang menyatukan solusi yang diperlukan untuk mengatasi risiko.
-Toolbelt Appsec yang efektif harus mencakup solusi terintegrasi yang megatasi resiko kemanan aplikasi, memberikan analisis kerenanan dalam kode kepemilikan, komponen open source, runtime configuration dan perilaku
+4. Build an "AppSec toolbelt" that brings together the solutions needed to address risks.
+An effective Appsec toolbelt should include integrated solutions that address application security risks, and provide vulnerability analysis in proprietary code, open-source components, runtime configuration and behaviour.
 
-5. Analisis Resiko keamanan aplikasi.
-mengetahui keamanan aplikasi sangat penting untuk dapat memfokuskan upaya pencegahan atau perbaikan resiko
+5. Analysis of application security risks.
+Knowing application security is very important to be able to focus efforts on preventing or correcting risks
